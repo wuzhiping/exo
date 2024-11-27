@@ -12,5 +12,8 @@ docker build -t shawoo/exo .
 # test
 docker run --rm -it --gpus all --net=host shawoo/exo nvidia-smi
 
+# debug
+docker run --rm -it --gpus all --net=host shawoo/exo DEBUG=9 exo
+
 # run
 docker run --rm -it --gpus all --net=host shawoo/exo exo
