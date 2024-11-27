@@ -17,3 +17,6 @@ docker run --rm -it --gpus all --net=host shawoo/exo DEBUG=9 exo
 
 # run
 docker run --rm -it --gpus all --net=host shawoo/exo exo
+
+# error 
+https://github.com/exo-explore/exo/blob/main/exo/topology/device_capabilities.py
